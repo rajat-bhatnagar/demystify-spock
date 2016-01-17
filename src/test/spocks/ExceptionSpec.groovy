@@ -18,6 +18,7 @@ class ExceptionSpec extends Specification{
       // This reads like this
       // When an exception is thrown it of type Division by zero
        e.toString() == "java.lang.ArithmeticException: Division by zero"
+       e.cause == null
        print e
   }
 }
