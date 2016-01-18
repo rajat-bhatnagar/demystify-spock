@@ -23,5 +23,7 @@ class ExpectDemo extends Specification {
     def "Get max number"(){
         expect:
          Math.max(10,12) == 12
+         Math.min(13,1) == 1
+         Math.sqrt(4) == 2
     }
 }
