@@ -5,7 +5,7 @@ import spock.lang.Specification
 /**
  * Created by rajatbhatnagar on 1/17/16.
  */
-class WhereBlockMaxDemo extends Specification {
+class WhereBlockMaxDemoSpec extends Specification {
 
     def "find max number using two sets of data"(int a , int b , int c){
         expect:

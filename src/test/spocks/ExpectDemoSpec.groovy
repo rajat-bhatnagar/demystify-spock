@@ -5,7 +5,7 @@ import spock.lang.Specification
 /**
  * Created by rajatbhatnagar on 1/17/16.
  */
-class ExpectDemo extends Specification {
+class ExpectDemoSpec extends Specification {
     //Use expense when it makes sense to have
     //both stimuli and response in a single expression
 

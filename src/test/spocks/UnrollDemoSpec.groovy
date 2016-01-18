@@ -7,7 +7,7 @@ import spock.lang.Unroll
  * Created by rajatbhatnagar on 1/17/16.
  */
 
-class UnrollDemo extends Specification {
+class UnrollDemoSpec extends Specification {
     // A method annotated with @Unroll will have its iterations reported independently
 
     // The method name uses placeholders denoted by #a , #b and #c to refer to data
