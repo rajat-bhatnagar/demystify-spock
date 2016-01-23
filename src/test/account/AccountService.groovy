@@ -7,7 +7,7 @@ interface AccountService {
 
     void createAccount(String accountNo)
 
-    void deleteAccount(String accountNo)
+    void removeAccount(String accountNo)
 
     void deposit(String accountNo , double amount)
 

@@ -8,7 +8,7 @@ public interface AccountDao {
 
     void updateAccount(Account account);
 
-    void deleteAccount(Account account);
+    void removeAccount(Account account);
 
     Account findAccount(String accountNo);
 }
